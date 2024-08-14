@@ -8,12 +8,12 @@ local options = {
     js = { "prettier" },
     jsx = { "prettier" },
     go = { "gofmt" },
-    py = { "black", "isort", "autopep8" },
+    python = { "black", "isort", "autopep8" },
   },
 
   format_on_save = {
     -- These options will be passed to conform.format()
-    timeout_ms = 500,
+    timeout_ms = 750,
     lsp_fallback = true,
   },
 }
